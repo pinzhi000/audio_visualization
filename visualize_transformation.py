@@ -1,13 +1,16 @@
 import io
-import librosa
-import numpy as np
-import streamlit as st
+import warnings
+
+warnings.filterwarnings("ignore")
+
 import audiomentations
-from matplotlib import pyplot as plt
+import librosa
 import librosa.display
-from scipy.io import wavfile
-import wave
+import numpy as np
 import pydub
+import streamlit as st
+from matplotlib import pyplot as plt
+from scipy.io import wavfile
 
 plt.rcParams["figure.figsize"] = (10, 7)
 
