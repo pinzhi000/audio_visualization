@@ -1,4 +1,7 @@
 import io
+import warnings
+
+warnings.filterwarnings("ignore")
 
 import audiomentations
 import librosa
